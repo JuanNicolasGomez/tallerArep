@@ -7,6 +7,8 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Main {
+
+
     public static void main (String [ ] args) throws IOException {
         LinkedList<Integer> numeros = new LinkedList<Integer>();
         float mean = 0;
