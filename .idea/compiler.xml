@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="123" />
         <module name="TallerArep" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="123" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
